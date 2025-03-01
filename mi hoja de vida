@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Yeye Blandón - Desarrollador Web</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #fff0f5;
+            color: #333;
+            animation: fadeIn 1s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 30px;
+            background-color: white;
+            box-shadow: 0 0 20px rgba(219, 112, 147, 0.3);
+            border-radius: 8px;
+            border-left: 5px solid #db7093;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #ffb6c1;
+            padding-bottom: 20px;
+            animation: slideDown 0.8s ease-out;
+        }
+        
+        @keyframes slideDown {
+            from { transform: translateY(-30px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        
+        h1 {
+            color: #db7093;
+            margin: 0;
+            font-size: 2.5em;
+        }
+        
+        .subtitle {
+            color: #ff69b4;
+            font-size: 1.3em;
+            margin-top: 5px;
+        }
+        
+        .contact-info {
+            margin-top: 15px;
+            color: #777;
+        }
+        
+        section {
+            margin-bottom: 25px;
+            animation: slideIn 1s ease-out;
+        }
+        
+        @keyframes slideIn {
+            from { transform: translateX(-20px); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+        
+        h2 {
+            color: #db7093;
+            border-bottom: 1px solid #ffb6c1;
+            padding-bottom: 5px;
+            font-size: 1.4em;
+        }
+        
+        .entry {
+            margin-bottom: 15px;
+            padding-left: 10px;
+            transition: transform 0.3s ease;
+        }
+        
+        .entry:hover {
+            transform: translateX(5px);
+            background-color: #fff0f5;
+            border-left: 3px solid #ffb6c1;
+            padding-left: 8px;
+        }
+        
+        .job-title, .degree, .skill-category {
+            font-weight: bold;
+            color: #ff69b4;
+        }
+        
+        .company, .university {
+            font-style: italic;
+        }
+        
+        .date {
+            color: #777;
+            font-size: 0.9em;
+        }
+        
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .skill {
+            background-color: #ffb6c1;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 0.9em;
+            transition: all 0.3s ease;
+        }
+        
+        .skill:hover {
+            background-color: #db7093;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Yeye Blandón</h1>
+            <div class="subtitle">Desarrollador Web</div>
+            <div class="contact-info">
+                📱 (123) 456-7890 • 📧 yeye.blandon@email.com • 🔗 linkedin.com/in/yeyeblandon<br>
+                🌐 github.com/yeyeblandon • 📍 Ciudad, País
+            </div>
+        </header>
+        
+        <section id="profile">
+            <h2>PERFIL PROFESIONAL</h2>
+            <p>Desarrollador web creativo y orientado a soluciones con experiencia en desarrollo front-end y back-end. Especializado en crear experiencias de usuario atractivas y funcionales con un enfoque en el rendimiento y la accesibilidad.</p>
+        </section>
+        
+        <section id="experience">
+            <h2>EXPERIENCIA LABORAL</h2>
+            
+            <div class="entry">
+                <div class="job-title">Desarrollador Web Senior</div>
+                <div class="company">Agencia Digital Innovar</div>
+                <div class="date">Enero 2023 - Presente</div>
+                <ul>
+                    <li>Desarrollo de aplicaciones web responsivas utilizando React y Node.js.</li>
+                    <li>Implementación de mejoras que aumentaron la velocidad de carga de los sitios en un 40%.</li>
+                    <li>Colaboración con equipos de diseño UX/UI para crear interfaces intuitivas.</li>
+                </ul>
+            </div>
+            
+            <div class="entry">
+                <div class="job-title">Desarrollador Front-end</div>
+                <div class="company">TechSolutions Inc.</div>
+                <div class="date">Marzo 2020 - Diciembre 2022</div>
+                <ul>
+                    <li>Desarrollo de interfaces de usuario con HTML5, CSS3 y JavaScript.</li>
+                    <li>Implementación de estrategias de SEO que incrementaron el tráfico orgánico en un 35%.</li>
+                    <li>Mantenimiento y optimización de sitios web existentes para mejorar la experiencia de usuario.</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="education">
+            <h2>FORMACIÓN ACADÉMICA</h2>
+            
+            <div class="entry">
+                <div class="degree">Ingeniería en Sistemas Computacionales</div>
+                <div class="university">Universidad Tecnológica Nacional</div>
+                <div class="date">2016 - 2020</div>
+                <p>Especialización en Desarrollo de Software • GPA: 3.8/4.0</p>
+            </div>
+            
+            <div class="entry">
+                <div class="degree">Certificación en Desarrollo Web Full-Stack</div>
+                <div class="university">Academia Tecnológica Digital</div>
+                <div class="date">2019</div>
+            </div>
+        </section>
+        
+        <section id="skills">
+            <h2>HABILIDADES TÉCNICAS</h2>
+            
+            <div class="entry">
+                <div class="skill-category">Desarrollo Front-end:</div>
+                <div class="skills">
+                    <span class="skill">HTML5</span>
+                    <span class="skill">CSS3</span>
+                    <span class="skill">JavaScript</span>
+                    <span class="skill">React</span>
+                    <span class="skill">Vue.js</span>
+                    <span class="skill">SASS</span>
+                    <span class="skill">Bootstrap</span>
+                </div>
+            </div>
+            
+            <div class="entry">
+                <div class="skill-category">Desarrollo Back-end:</div>
+                <div class="skills">
+                    <span class="skill">Node.js</span>
+                    <span class="skill">Express</span>
+                    <span class="skill">PHP</span>
+                    <span class="skill">MySQL</span>
+                    <span class="skill">MongoDB</span>
+                    <span class="skill">API RESTful</span>
+                </div>
+            </div>
+            
+            <div class="entry">
+                <div class="skill-category">Herramientas:</div>
+                <div class="skills">
+                    <span class="skill">Git</span>
+                    <span class="skill">Docker</span>
+                    <span class="skill">Webpack</span>
+                    <span class="skill">Figma</span>
+                    <span class="skill">Adobe XD</span>
+                    <span class="skill">VS Code</span>
+                </div>
+            </div>
+        </section>
+        
+        <section id="languages">
+            <h2>IDIOMAS</h2>
+            <div class="entry">
+                <p><strong>Español:</strong> Nativo</p>
+                <p><strong>Inglés:</strong> Avanzado (C1)</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

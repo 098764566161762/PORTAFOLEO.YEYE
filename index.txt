@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Yeye Blandón - Desarrollador Web</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff8fa;
+        }
+        
+        .header {
+            text-align: center;
+            background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #fff;
+            font-size: 36px;
+            margin: 0;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+        
+        .contact-info {
+            background-color: white;
+            border-radius: 8px;
+            padding: 15px;
+            margin-top: 15px;
+            display: inline-block;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .contact-item {
+            margin: 5px 0;
+            font-size: 14px;
+            color: #e75a7c;
+        }
+        
+        section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-left: 5px solid #ff9a9e;
+        }
+        
+        h2 {
+            color: #e75a7c;
+            border-bottom: 2px dotted #fad0c4;
+            padding-bottom: 5px;
+            margin-top: 0;
+        }
+        
+        .job, .education {
+            margin-bottom: 15px;
+        }
+        
+        .date {
+            font-weight: bold;
+            color: #e75a7c;
+        }
+        
+        .company, .institution {
+            font-weight: bold;
+        }
+        
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .skill {
+            background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+        
+        .code {
+            font-family: monospace;
+            padding: 3px 6px;
+            background-color: #f8f8f8;
+            border-radius: 3px;
+            font-size: 14px;
+            color: #e75a7c;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Yeye Blandón</h1>
+        <h3>Desarrollador Web</h3>
+        <div class="contact-info">
+            <div class="contact-item">📱 Teléfono: 12345678910</div>
+            <div class="contact-item">📍 Medellín, Colombia</div>
+            <div class="contact-item">✉️ Email: yeye@34gmail.com</div>
+            <div class="contact-item">🔑 Código: <span class="code">YB-DEV-2025</span></div>
+        </div>
+    </div>
+    
+    <section>
+        <h2>Perfil Profesional</h2>
+        <p>Desarrollador web creativo y orientado a resultados con experiencia en la creación de soluciones web responsivas, intuitivas y visualmente atractivas. Especializada en frontend y con sólidos conocimientos en backend, con enfoque en la experiencia del usuario y la optimización del rendimiento.</p>
+    </section>
+    
+    <section>
+        <h2>Experiencia Profesional</h2>
+        
+        <div class="job">
+            <div class="date">2022 - Presente</div>
+            <div class="company">TechSolutions Colombia</div>
+            <div class="position">Desarrollador Web Senior</div>
+            <ul>
+                <li>Desarrollo de aplicaciones web utilizando React y Node.js</li>
+                <li>Implementación de diseños responsivos y accesibles</li>
+                <li>Optimización del rendimiento en aplicaciones de alto tráfico</li>
+            </ul>
+        </div>
+        
+        <div class="job">
+            <div class="date">2020 - 2022</div>
+            <div class="company">Digital Innovators</div>
+            <div class="position">Desarrollador Frontend</div>
+            <ul>
+                <li>Creación de interfaces de usuario intuitivas con JavaScript y CSS</li>
+                <li>Colaboración en proyectos ágiles con equipos multidisciplinarios</li>
+                <li>Implementación de mejores prácticas de SEO y rendimiento</li>
+            </ul>
+        </div>
+    </section>
+    
+    <section>
+        <h2>Formación Académica</h2>
+        
+        <div class="education">
+            <div class="date">2016 - 2020</div>
+            <div class="institution">Universidad de Antioquia</div>
+            <div class="degree">Ingeniería de Sistemas</div>
+        </div>
+        
+        <div class="education">
+            <div class="date">2022</div>
+            <div class="institution">Platzi</div>
+            <div class="degree">Certificación en Desarrollo Web Avanzado</div>
+        </div>
+    </section>
+    
+    <section>
+        <h2>Habilidades Técnicas</h2>
+        <div class="skills-list">
+            <div class="skill">HTML5</div>
+            <div class="skill">CSS3</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">React</div>
+            <div class="skill">Node.js</div>
+            <div class="skill">TypeScript</div>
+            <div class="skill">UI/UX</div>
+            <div class="skill">Git</div>
+            <div class="skill">Responsive Design</div>
+            <div class="skill">API REST</div>
+            <div class="skill">MongoDB</div>
+            <div class="skill">PostgreSQL</div>
+        </div>
+    </section>
+    
+    <section>
+        <h2>Idiomas</h2>
+        <div class="skills-list">
+            <div class="skill">Español (Nativo)</div>
+            <div class="skill">Inglés (Avanzado)</div>
+            <div class="skill">Portugués (Intermedio)</div>
+        </div>
+    </section>
+    
+    <section>
+        <h2>Proyectos Destacados</h2>
+        <div class="job">
+            <div class="date">2023</div>
+            <div class="company">E-commerce Platform</div>
+            <p>Desarrollo de una plataforma de comercio electrónico con React, Node.js y MongoDB, implementando pasarelas de pago y gestión de inventario en tiempo real.</p>
+        </div>
+        
+        <div class="job">
+            <div class="date">2022</div>
+            <div class="company">Dashboard Analytics</div>
+            <p>Creación de un panel de análisis para visualización de datos empresariales con gráficos interactivos utilizando D3.js y React.</p>
+        </div>
+    </section>
+</body>
+</html>
